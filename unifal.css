@@ -1,0 +1,28 @@
+body{
+border:0px;
+margin: 0px 800px 500px 0px; 
+padding:0px; 
+background: #D3D3D3;
+}
+
+.logo{
+background: white;
+}
+
+.botao{
+margin:180px 0px 0px 10px ;
+border-radius: 30px;
+width:220px;
+height:310px;
+}
+
+.calendario{
+text-align: center;
+}
+
+.copy{
+text-align: center;
+position: relative;
+top: 180px;
+
+}
