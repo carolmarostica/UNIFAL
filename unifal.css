@@ -32,20 +32,34 @@ padding: 25px 40px;
 color:white; 
 text-decoration: none;
 }
+
 .botaoc{
 margin:180px 0px 0px 10px ;
 border-radius: 30px;
-width:220px;
+width:260px;
 height:310px;
 }
+
 .botaof{
 margin:180px 0px 0px 150px ;
 border-radius: 30px;
-width:220px;
+width:260px;
 height:310px;
 }
+
 .calendario{
 text-align: center;
+}
+
+.textoExplicativof p{
+width:5px;
+float:center; 
+}
+
+.textoExplicativoc{
+width:2px;
+position:relative;
+float:center;
 }
 
 .copy{
