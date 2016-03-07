@@ -1,6 +1,6 @@
 body{
 border:0px;
-margin: 0px 800px 500px 0px; 
+margin: 0px 350px 0px 350px; 
 padding:0px; 
 background: #D3D3D3;
 }
@@ -8,14 +8,42 @@ background: #D3D3D3;
 .logo{
 background: white;
 }
+.menu{
+padding:0px; 
+width:780px;
+}
 
-.botao{
+nav ul {
+background:#007FFF;
+padding: 0px 95px;
+list-style: none;
+position: relative;
+display: inline-table;
+border -bottom: 1px solid #575f6a;
+left:0px;
+}
+
+nav ul li {
+float: left;
+}
+
+nav ul li a {
+padding: 25px 40px;
+color:white; 
+text-decoration: none;
+}
+.botaoc{
 margin:180px 0px 0px 10px ;
 border-radius: 30px;
 width:220px;
 height:310px;
 }
-
+.botaof{
+margin:180px 0px 0px 150px ;
+border-radius: 30px;
+width:220px;
+height:310px;
+}
 .calendario{
 text-align: center;
 }
