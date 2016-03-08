@@ -2,7 +2,7 @@ body{
 border:0px;
 margin: 0px 350px 0px 350px; 
 padding:0px; 
-background: #D3D3D3;
+background: #DCDCDC;
 }
 
 .logo{
@@ -10,56 +10,58 @@ background: white;
 }
 .menu{
 padding:0px; 
-width:780px;
+width:1205px;
 }
 
 nav ul {
-background:#007FFF;
-padding: 0px 95px;
-list-style: none;
-position: relative;
-display: inline-table;
-border -bottom: 1px solid #575f6a;
-left:0px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #87CEFA;
 }
 
 nav ul li {
-float: left;
+    float: left;
+    padding: 0px 50px;
 }
 
 nav ul li a {
-padding: 25px 40px;
-color:white; 
-text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #39C;
 }
 
 .botaoc{
 margin:180px 0px 0px 10px ;
 border-radius: 30px;
-width:260px;
+width:220px;
 height:310px;
 }
-
 .botaof{
 margin:180px 0px 0px 150px ;
 border-radius: 30px;
-width:260px;
+width:220px;
 height:310px;
 }
-
-.calendario{
+.botoes{
 text-align: center;
 }
 
-.textoExplicativof p{
-width:5px;
-float:center; 
+.textoForum p{
+width: 50px;
 }
 
-.textoExplicativoc{
-width:2px;
-position:relative;
-float:center;
+.textoCalendario{
+
+width: 50px;
 }
 
 .copy{
